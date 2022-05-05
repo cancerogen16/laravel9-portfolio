@@ -8,5 +8,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-    plugins: [require("tailgrids/plugin")],
+    plugins: [require("./plugin")],
 }
