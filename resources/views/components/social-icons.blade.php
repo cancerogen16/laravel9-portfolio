@@ -1,14 +1,21 @@
-<div class="flex items-center mb-6">
+<div {{ $attributes->class(['flex items-center'])}}>
     <a href="javascript:void(0)"
-       class="w-8
-             h-8
+       class="w-10
+             h-10
              flex
              items-center
              justify-center
              rounded-full
-             border border-[#E5E5E5]
+             border
+             border-2
+             border-dark
+             dark:border-white
              text-dark
-             hover:text-white hover:bg-primary hover:border-primary
+             dark:text-white
+             hover:text-white
+             hover:bg-primary
+             hover:border-primary
+             hover:dark:border-primary
              mr-3
              sm:mr-4
              lg:mr-3
@@ -16,8 +23,8 @@
              "
     >
         <svg
-            width="8"
-            height="16"
+            width="10"
+            height="18"
             viewBox="0 0 8 16"
             class="fill-current"
         >
@@ -27,15 +34,22 @@
         </svg>
     </a>
     <a href="javascript:void(0)"
-       class="w-8
-             h-8
+       class="w-10
+             h-10
              flex
              items-center
              justify-center
              rounded-full
-             border border-[#E5E5E5]
+             border
+             border-2
+             border-dark
+             dark:border-white
              text-dark
-             hover:text-white hover:bg-primary hover:border-primary
+             dark:text-white
+             hover:text-white
+             hover:bg-primary
+             hover:border-primary
+             hover:dark:border-primary
              mr-3
              sm:mr-4
              lg:mr-3
@@ -54,15 +68,22 @@
         </svg>
     </a>
     <a href="javascript:void(0)"
-       class="w-8
-             h-8
+       class="w-10
+             h-10
              flex
              items-center
              justify-center
              rounded-full
-             border border-[#E5E5E5]
+             border
+             border-2
+             border-dark
+             dark:border-white
              text-dark
-             hover:text-white hover:bg-primary hover:border-primary
+             dark:text-white
+             hover:text-white
+             hover:bg-primary
+             hover:border-primary
+             hover:dark:border-primary
              mr-3
              sm:mr-4
              lg:mr-3
@@ -81,15 +102,22 @@
         </svg>
     </a>
     <a href="javascript:void(0)"
-       class="w-8
-             h-8
+       class="w-10
+             h-10
              flex
              items-center
              justify-center
              rounded-full
-             border border-[#E5E5E5]
+             border
+             border-2
+             border-dark
+             dark:border-white
              text-dark
-             hover:text-white hover:bg-primary hover:border-primary
+             dark:text-white
+             hover:text-white
+             hover:bg-primary
+             hover:border-primary
+             hover:dark:border-primary
              mr-3
              sm:mr-4
              lg:mr-3

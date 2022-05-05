@@ -627,6 +627,9 @@ body{
 .h-\[2px\]{
   height: 2px;
 }
+.h-10{
+  height: 2.5rem;
+}
 .min-h-screen{
   min-height: 100vh;
 }
@@ -650,6 +653,9 @@ body{
 }
 .w-\[30px\]{
   width: 30px;
+}
+.w-10{
+  width: 2.5rem;
 }
 .max-w-full{
   max-width: 100%;
@@ -697,6 +703,9 @@ body{
 .border{
   border-width: 1px;
 }
+.border-2{
+  border-width: 2px;
+}
 .border-t{
   border-top-width: 1px;
 }
@@ -714,6 +723,10 @@ body{
 .border-\[\#E5E5E5\]{
   --tw-border-opacity: 1;
   border-color: rgb(229 229 229 / var(--tw-border-opacity));
+}
+.border-dark{
+  --tw-border-opacity: 1;
+  border-color: rgb(9 14 52 / var(--tw-border-opacity));
 }
 .bg-white{
   --tw-bg-opacity: 1;
@@ -1075,6 +1088,11 @@ input#checkboxLabelFive:checked ~ .box{
   display: none;
 }
 
+.dark .dark\:border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .dark .dark\:bg-slate-900{
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -1108,6 +1126,11 @@ input#checkboxLabelFive:checked ~ .box{
 .dark .dark\:text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.dark .hover\:dark\:border-primary:hover{
+  --tw-border-opacity: 1;
+  border-color: rgb(12 113 135 / var(--tw-border-opacity));
 }
 
 @media (min-width: 540px){
