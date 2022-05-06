@@ -562,6 +562,10 @@ body{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
 .mr-3{
   margin-right: 0.75rem;
 }
@@ -585,6 +589,9 @@ body{
 }
 .mb-12{
   margin-bottom: 3rem;
+}
+.mr-4{
+  margin-right: 1rem;
 }
 .block{
   display: block;
@@ -727,6 +734,13 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
+.bg-\[\#13C296\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 194 150 / var(--tw-bg-opacity));
+}
+.bg-opacity-\[15\%\]{
+  --tw-bg-opacity: 15%;
+}
 .fill-current{
   fill: currentColor;
 }
@@ -769,6 +783,18 @@ body{
 .px-10{
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .pr-4{
   padding-right: 1rem;
@@ -838,6 +864,9 @@ body{
 }
 .leading-snug{
   line-height: 1.375;
+}
+.leading-tight{
+  line-height: 1.25;
 }
 .text-\[\#0c7187\]{
   --tw-text-opacity: 1;
@@ -1072,6 +1101,10 @@ input#checkboxLabelFive:checked ~ .box{
   --tw-bg-opacity: 0.9;
 }
 
+.hover\:bg-opacity-100:hover{
+  --tw-bg-opacity: 1;
+}
+
 .hover\:text-white:hover{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1136,6 +1169,13 @@ input#checkboxLabelFive:checked ~ .box{
   border-color: rgb(12 113 135 / var(--tw-border-opacity));
 }
 
+@media (min-width: 400px){
+
+  .xs\:block{
+    display: block;
+  }
+}
+
 @media (min-width: 540px){
 
   .sm\:-mx-4{
@@ -1145,6 +1185,10 @@ input#checkboxLabelFive:checked ~ .box{
 
   .sm\:mr-4{
     margin-right: 1rem;
+  }
+
+  .sm\:mb-8{
+    margin-bottom: 2rem;
   }
 
   .sm\:px-4{
@@ -1165,9 +1209,17 @@ input#checkboxLabelFive:checked ~ .box{
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .sm\:text-\[38px\]{
+    font-size: 38px;
+  }
 }
 
 @media (min-width: 720px){
+
+  .md\:p-\[70px\]{
+    padding: 70px;
+  }
 
   .md\:px-9{
     padding-left: 2.25rem;
@@ -1199,6 +1251,10 @@ input#checkboxLabelFive:checked ~ .box{
 
   .lg\:mt-0{
     margin-top: 0px;
+  }
+
+  .lg\:mb-0{
+    margin-bottom: 0px;
   }
 
   .lg\:block{
@@ -1249,6 +1305,10 @@ input#checkboxLabelFive:checked ~ .box{
     align-items: center;
   }
 
+  .lg\:justify-end{
+    justify-content: flex-end;
+  }
+
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -1262,6 +1322,11 @@ input#checkboxLabelFive:checked ~ .box{
   .lg\:px-8{
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-\[120px\]{
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .lg\:pt-\[80px\]{
