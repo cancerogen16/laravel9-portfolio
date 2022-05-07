@@ -498,6 +498,12 @@ body{
 .relative{
   position: relative;
 }
+.-left-7{
+  left: -1.75rem;
+}
+.-bottom-7{
+  bottom: -1.75rem;
+}
 .right-4{
   right: 1rem;
 }
@@ -507,8 +513,11 @@ body{
 .-right-7{
   right: -1.75rem;
 }
-.-bottom-7{
-  bottom: -1.75rem;
+.-right-10{
+  right: -2.5rem;
+}
+.top-\[90px\]{
+  top: 90px;
 }
 .left-0{
   left: 0px;
@@ -525,35 +534,17 @@ body{
 .bottom-0{
   bottom: 0px;
 }
-.top-10{
-  top: 2.5rem;
-}
-.right-10{
-  right: 2.5rem;
-}
-.top-4{
-  top: 1rem;
-}
-.left-4{
-  left: 1rem;
-}
-.bottom-4{
-  bottom: 1rem;
-}
 .-top-10{
   top: -2.5rem;
 }
 .-right-9{
   right: -2.25rem;
 }
-.-right-10{
-  right: -2.5rem;
+.top-10{
+  top: 2.5rem;
 }
-.top-\[90px\]{
-  top: 90px;
-}
-.-left-7{
-  left: -1.75rem;
+.right-10{
+  right: 2.5rem;
 }
 .z-10{
   z-index: 10;
@@ -566,9 +557,6 @@ body{
 }
 .z-20{
   z-index: 20;
-}
-.z-40{
-  z-index: 40;
 }
 .-mx-4{
   margin-left: -1rem;
@@ -586,13 +574,13 @@ body{
   margin-top: 6px;
   margin-bottom: 6px;
 }
-.my-1{
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+.my-1{
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 .mx-7{
   margin-left: 1.75rem;
@@ -610,44 +598,26 @@ body{
 .mb-12{
   margin-bottom: 3rem;
 }
+.mb-\[60px\]{
+  margin-bottom: 60px;
+}
+.mb-4{
+  margin-bottom: 1rem;
+}
 .mb-6{
   margin-bottom: 1.5rem;
 }
 .mr-4{
   margin-right: 1rem;
 }
-.mr-3{
-  margin-right: 0.75rem;
-}
-.mb-4{
-  margin-bottom: 1rem;
-}
-.ml-2{
-  margin-left: 0.5rem;
-}
-.mb-\[60px\]{
-  margin-bottom: 60px;
-}
-.mb-1{
-  margin-bottom: 0.25rem;
-}
-.-mt-20{
-  margin-top: -5rem;
-}
-.-mt-4{
-  margin-top: -1rem;
-}
-.mb-10{
-  margin-bottom: 2.5rem;
-}
-.mb-7{
-  margin-bottom: 1.75rem;
-}
 .mb-9{
   margin-bottom: 2.25rem;
 }
 .mr-6{
   margin-right: 1.5rem;
+}
+.mb-1{
+  margin-bottom: 0.25rem;
 }
 .ml-1{
   margin-left: 0.25rem;
@@ -657,6 +627,9 @@ body{
 }
 .mr-2{
   margin-right: 0.5rem;
+}
+.ml-2{
+  margin-left: 0.5rem;
 }
 .mt-4{
   margin-top: 1rem;
@@ -672,6 +645,18 @@ body{
 }
 .-mt-px{
   margin-top: -1px;
+}
+.mr-3{
+  margin-right: 0.75rem;
+}
+.-mt-4{
+  margin-top: -1rem;
+}
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+.mb-7{
+  margin-bottom: 1.75rem;
 }
 .block{
   display: block;
@@ -700,6 +685,18 @@ body{
 .h-24{
   height: 6rem;
 }
+.h-\[60px\]{
+  height: 60px;
+}
+.h-5{
+  height: 1.25rem;
+}
+.h-8{
+  height: 2rem;
+}
+.h-16{
+  height: 4rem;
+}
 .h-10{
   height: 2.5rem;
 }
@@ -708,9 +705,6 @@ body{
 }
 .h-\[260px\]{
   height: 260px;
-}
-.h-\[300px\]{
-  height: 300px;
 }
 .h-full{
   height: 100%;
@@ -723,18 +717,6 @@ body{
 }
 .h-\[320px\]{
   height: 320px;
-}
-.h-8{
-  height: 2rem;
-}
-.h-\[60px\]{
-  height: 60px;
-}
-.h-5{
-  height: 1.25rem;
-}
-.h-16{
-  height: 4rem;
 }
 .min-h-screen{
   min-height: 100vh;
@@ -751,11 +733,17 @@ body{
 .w-\[48px\]{
   width: 48px;
 }
-.w-10{
-  width: 2.5rem;
+.w-5{
+  width: 1.25rem;
 }
 .w-8{
   width: 2rem;
+}
+.w-auto{
+  width: auto;
+}
+.w-10{
+  width: 2.5rem;
 }
 .w-20{
   width: 5rem;
@@ -763,23 +751,11 @@ body{
 .w-11\/12{
   width: 91.666667%;
 }
-.w-5{
-  width: 1.25rem;
-}
-.w-auto{
-  width: auto;
-}
 .max-w-full{
   max-width: 100%;
 }
-.max-w-\[480px\]{
-  max-width: 480px;
-}
 .max-w-\[510px\]{
   max-width: 510px;
-}
-.max-w-\[550px\]{
-  max-width: 550px;
 }
 .max-w-\[570px\]{
   max-width: 570px;
@@ -795,6 +771,9 @@ body{
 }
 .max-w-6xl{
   max-width: 72rem;
+}
+.max-w-\[480px\]{
+  max-width: 480px;
 }
 .-translate-y-1\/2{
   --tw-translate-y: -50%;
@@ -823,9 +802,6 @@ body{
 }
 .cursor-pointer{
   cursor: pointer;
-}
-.resize-none{
-  resize: none;
 }
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -865,9 +841,6 @@ body{
 .rounded-full{
   border-radius: 9999px;
 }
-.rounded-md{
-  border-radius: 0.375rem;
-}
 .border{
   border-width: 1px;
 }
@@ -892,9 +865,9 @@ body{
   --tw-border-opacity: 1;
   border-color: rgb(12 113 135 / var(--tw-border-opacity));
 }
-.border-dark{
+.border-red-500{
   --tw-border-opacity: 1;
-  border-color: rgb(9 14 52 / var(--tw-border-opacity));
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
 }
 .border-gray-200{
   --tw-border-opacity: 1;
@@ -903,6 +876,10 @@ body{
 .border-gray-400{
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+.border-dark{
+  --tw-border-opacity: 1;
+  border-color: rgb(9 14 52 / var(--tw-border-opacity));
 }
 .bg-primary{
   --tw-bg-opacity: 1;
@@ -932,6 +909,10 @@ body{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
+.bg-green-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
 .bg-gray-200{
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
@@ -943,20 +924,17 @@ body{
 .bg-opacity-\[15\%\]{
   --tw-bg-opacity: 15%;
 }
-.bg-opacity-90{
-  --tw-bg-opacity: 0.9;
+.bg-opacity-5{
+  --tw-bg-opacity: 0.05;
+}
+.bg-opacity-0{
+  --tw-bg-opacity: 0;
 }
 .bg-opacity-20{
   --tw-bg-opacity: 0.2;
 }
 .bg-opacity-70{
   --tw-bg-opacity: 0.7;
-}
-.bg-opacity-0{
-  --tw-bg-opacity: 0;
-}
-.bg-opacity-5{
-  --tw-bg-opacity: 0.05;
 }
 .fill-current{
   fill: currentColor;
@@ -969,14 +947,14 @@ body{
   -o-object-position: center;
      object-position: center;
 }
-.p-3{
-  padding: 0.75rem;
+.p-8{
+  padding: 2rem;
 }
 .p-6{
   padding: 1.5rem;
 }
-.p-8{
-  padding: 2rem;
+.p-3{
+  padding: 0.75rem;
 }
 .px-4{
   padding-left: 1rem;
@@ -1001,6 +979,10 @@ body{
 .py-\[6px\]{
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.px-\[14px\]{
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .py-2{
   padding-top: 0.5rem;
@@ -1030,21 +1012,13 @@ body{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
 .py-9{
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
-.px-7{
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-.px-\[14px\]{
-  padding-left: 14px;
-  padding-right: 14px;
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 .pt-20{
   padding-top: 5rem;
@@ -1058,6 +1032,12 @@ body{
 .pt-24{
   padding-top: 6rem;
 }
+.pb-16{
+  padding-bottom: 4rem;
+}
+.pt-8{
+  padding-top: 2rem;
+}
 .pt-\[60px\]{
   padding-top: 60px;
 }
@@ -1069,12 +1049,6 @@ body{
 }
 .pt-11{
   padding-top: 2.75rem;
-}
-.pb-16{
-  padding-bottom: 4rem;
-}
-.pt-8{
-  padding-top: 2rem;
 }
 .text-center{
   text-align: center;
@@ -1095,6 +1069,13 @@ body{
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-\[32px\]{
+  font-size: 32px;
+}
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1102,13 +1083,6 @@ body{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-.text-\[32px\]{
-  font-size: 32px;
 }
 .font-semibold{
   font-weight: 600;
@@ -1131,14 +1105,14 @@ body{
 .leading-tight{
   line-height: 1.25;
 }
-.leading-snug{
-  line-height: 1.375;
-}
 .leading-relaxed{
   line-height: 1.625;
 }
 .leading-7{
   line-height: 1.75rem;
+}
+.leading-snug{
+  line-height: 1.375;
 }
 .tracking-wider{
   letter-spacing: 0.05em;
@@ -1167,6 +1141,10 @@ body{
   --tw-text-opacity: 1;
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
+.text-gray-100{
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
 .text-gray-200{
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
@@ -1194,6 +1172,10 @@ body{
 .text-gray-900{
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+.text-red-500{
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 .underline{
   -webkit-text-decoration-line: underline;
@@ -1459,6 +1441,11 @@ input#checkboxLabelFive:checked ~ .box{
   border-color: rgb(12 113 135 / var(--tw-border-opacity));
 }
 
+.focus\:border-red-500:focus{
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity));
+}
+
 .focus\:ring-2:focus{
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
@@ -1499,14 +1486,14 @@ input#checkboxLabelFive:checked ~ .box{
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-gray-300{
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-gray-200{
@@ -1594,24 +1581,16 @@ input#checkboxLabelFive:checked ~ .box{
     font-size: 38px;
   }
 
-  .sm\:text-\[42px\]{
-    font-size: 42px;
-  }
-
   .sm\:text-\[40px\]{
     font-size: 40px;
+  }
+
+  .sm\:text-\[42px\]{
+    font-size: 42px;
   }
 }
 
 @media (min-width: 720px){
-
-  .md\:h-\[450px\]{
-    height: 450px;
-  }
-
-  .md\:h-\[100px\]{
-    height: 100px;
-  }
 
   .md\:h-\[70px\]{
     height: 70px;
@@ -1619,10 +1598,6 @@ input#checkboxLabelFive:checked ~ .box{
 
   .md\:w-1\/2{
     width: 50%;
-  }
-
-  .md\:w-\[100px\]{
-    width: 100px;
   }
 
   .md\:w-\[70px\]{
@@ -1722,10 +1697,6 @@ input#checkboxLabelFive:checked ~ .box{
     width: 8.333333%;
   }
 
-  .lg\:w-10\/12{
-    width: 83.333333%;
-  }
-
   .lg\:max-w-full{
     max-width: 100%;
   }
@@ -1782,12 +1753,12 @@ input#checkboxLabelFive:checked ~ .box{
     text-align: right;
   }
 
-  .lg\:text-\[40px\]{
-    font-size: 40px;
-  }
-
   .lg\:text-\[36px\]{
     font-size: 36px;
+  }
+
+  .lg\:text-\[40px\]{
+    font-size: 40px;
   }
 
   .lg\:shadow-none{
@@ -1815,16 +1786,16 @@ input#checkboxLabelFive:checked ~ .box{
     width: 41.666667%;
   }
 
+  .xl\:w-6\/12{
+    width: 50%;
+  }
+
   .xl\:w-1\/3{
     width: 33.333333%;
   }
 
   .xl\:w-8\/12{
     width: 66.666667%;
-  }
-
-  .xl\:w-6\/12{
-    width: 50%;
   }
 
   .xl\:p-7{
@@ -1846,12 +1817,12 @@ input#checkboxLabelFive:checked ~ .box{
     line-height: 2rem;
   }
 
-  .xl\:text-\[42px\]{
-    font-size: 42px;
-  }
-
   .xl\:text-\[40px\]{
     font-size: 40px;
+  }
+
+  .xl\:text-\[42px\]{
+    font-size: 42px;
   }
 }
 
